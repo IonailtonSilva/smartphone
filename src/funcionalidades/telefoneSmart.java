@@ -54,26 +54,37 @@ public class telefoneSmart {
 
     public void realizarchamada(String numerotel) {
         Scanner scanner = new Scanner(System.in);
-
             System.out.println("\nPronto para realizar chamadas, digite o Nº telefone: ");
             numerotel = scanner.next();
 
             System.out.println("Discando Para numero: " + numerotel);
             System.out.println("Chamando...");
             System.out.println("Desligando...\n");
+
+        }
  
-    }
+    
 
     public void acessoNavegador(String meusite){
 
-    Scanner scanner = new Scanner(System.in);
-       
-        System.out.println("Acessando Navegador...");
-        System.out.println("Digite A URL: ");
-        meusite = scanner.next();
-
-        System.out.println("Acessando URL: "+"https://www." + meusite + ".com.br");
-
+       Scanner scanner = new Scanner(System.in);
+            System.out.println("Acessando Navegador...");
+            System.out.println("Digite A URL: ");
+            meusite = scanner.next();
+            
+            System.out.println("Acessando URL: "+"https://www." + meusite + ".com.br");
+            
+            int opcao;
+            System.out.println("Digite 1 para NovaAba ou 2 para Atualizar");
+            opcao = scanner.nextInt();
+            
+            switch(opcao){
+                
+                case 1 -> System.out.println("Abrindo Nova Aba");
+                case 2 -> System.out.println("Atualizando");
+                default -> System.out.println("Encerrando...");
+            
+        }scanner.close();
  }
     
 }
