@@ -73,18 +73,8 @@ public class telefoneSmart {
             meusite = scanner.next();
             
             System.out.println("Acessando URL: "+"https://www." + meusite + ".com.br");
+    
             
-            int opcao;
-            System.out.println("Digite 1 para NovaAba ou 2 para Atualizar");
-            opcao = scanner.nextInt();
-            
-            switch(opcao){
-                
-                case 1 -> System.out.println("Abrindo Nova Aba");
-                case 2 -> System.out.println("Atualizando");
-                default -> System.out.println("Encerrando...");
-            
-        }scanner.close();
  }
     
 }
