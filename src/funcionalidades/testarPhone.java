@@ -1,8 +1,7 @@
 package funcionalidades;
 
 public class testarPhone {
-
-    
+   
 public static void main(String[] args) {
 
     telefoneSmart telefone = new telefoneSmart();
