@@ -60,10 +60,7 @@ public class telefoneSmart {
             System.out.println("Discando Para numero: " + numerotel);
             System.out.println("Chamando...");
             System.out.println("Desligando...\n");
-
         }
- 
-    
 
     public void acessoNavegador(String meusite){
 
